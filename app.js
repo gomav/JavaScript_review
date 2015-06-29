@@ -1,6 +1,14 @@
 // Basic alert
-alert("hello from Me");
+// alert("hello from Me");
 
 
+// Write something to web page
+// document.write("Hello Boulder");
+
+
+// Variables
+// var nameList = 100;
 //
-document.write("Hello Boulder");
+//   alert(nameList);
+
+// Arrays
