@@ -1,25 +1,27 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>If Statements </title>
+	<title>Event page</title>
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 </head>
-<body id="5">
+<body id="9">
 	<div class="container">
 		<header class="row">
 
 
-		<h1 class="text-center">If Statements page: #5 </h1>
+		<h1 class="text-center">Events page: #9</h1>
 
 		</header>
 
 	<section class="content">
 
 		<aside class="col-xs-4">
+
 		<ul>
 		<li id="homepage"><a href="1.html">home</a></li>
 		<li id="page2"><a href="2.html">Variables for strings</a></li>
@@ -39,42 +41,81 @@
 
 		<article class="main-content col-xs-8">
 
-					     <!-- FUNCTION BELOW-->
+<!-- Step 1
 
+PUT AN onclick even handler on this button below and call and alert()
+function saying anything you want, like we did on the video.
+
+-->
+
+<button id="theButton" class="btn btn-primary">SUBMIT</button>
+
+
+
+
+<!--Step 2 Open this page and refresh -->
+
+
+<!-- NEXT....We are going to handle events differently by using document.getElementById() with onclick().Don't Panic I will help you on this a little :) -->
+
+
+<!--********************NEXT SECTION **************-->
+
+<!--STEP 1 - Create a button with an id of clickMe that says Click Me-->
+
+<button id="clickMe">Click Me
+
+
+<!--BUTTON HERE-->
 
 
 
 <script>
 
-// STEP 1 - Make two variables and assign them number values
 
-
-var number1 = 88;
-var number2 = 2015;
-
-/*STEP 2
-Make an if statement that will check which number is smaller than the other
-NOTE: remmember the if statement has to be true to execute.....
-*/
-
-
-//If Statement here
-if(number1 < number2){;
+// Step 2 Make a function with the name ClickMe and inside the curly brakets call an alert() function to display any text you want.
 
 
 
 
-//Step 3 - Place an alert() inside the if statement as executable code
-  alert("88 is smaller then 2015!")
-}
-
-
-
-//Step 4 - Open This page if not open and refresh
+//function here........
 
 
 
 
+//document.write() here.......
+
+
+
+
+
+
+// Step 3 Create a document.getElementById() and put the Id you made in Step 1 inside the parentheses.
+
+// code here.....
+
+// Step 4. Use a dot notation to append onclick = function(){} to the document.getELementById().
+
+
+
+
+//Step 5 Put the name of the function Clickme inside the curly brackets of the Step 3 function you made, and remember to put a semicolon for this statement at end in the curly bracket.
+
+
+
+//Step 6 -Open your page and refresh, and click the button that says CLICK ME
+
+
+
+
+
+
+
+</script>
+
+
+
+<script>
 
 </script>
 
