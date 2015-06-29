@@ -63,11 +63,11 @@ function saying anything you want, like we did on the video.
 
 <!--STEP 1 - Create a button with an id of clickMe that says Click Me-->
 
-<button id="clickMe">Click Me
 
 
 <!--BUTTON HERE-->
 
+<button id="clickMe" class="btn btn-warning">Click Me</button>
 
 
 <script>
@@ -77,13 +77,15 @@ function saying anything you want, like we did on the video.
 
 
 
-
 //function here........
 
-
+ var clickMe = function(){;
+	alert("It works!");
+};
 
 
 //document.write() here.......
+document.write();
 
 
 
@@ -92,7 +94,13 @@ function saying anything you want, like we did on the video.
 
 // Step 3 Create a document.getElementById() and put the Id you made in Step 1 inside the parentheses.
 
-// code here.....
+document.getElementById("clickMe").onclick = function(){
+	clickMe();
+};
+
+	// function clickMe(){
+	// 	alert("It works!");
+	// }
 
 // Step 4. Use a dot notation to append onclick = function(){} to the document.getELementById().
 
