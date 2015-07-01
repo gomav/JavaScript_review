@@ -1,4 +1,4 @@
-var names = new Array("Edwin ", "Manny ", "Josefa ", "Palta ");
+var names = ["Edwin ", "Manny ", "Josefa ", "Palta "];
 
 var i = 0;
 while(i < names.length) {
