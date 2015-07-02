@@ -1,4 +1,4 @@
-var bestCities = ["Denver", "Boulder", "San Francisco", "San Diego", "Austin"];
+var bestCities = ["Denver","Boulder","San Francisco","San Diego","Austin"];
 
 var userInput = prompt("What is your city?");
 
@@ -12,7 +12,7 @@ for(var i = 0; i <= bestCities.length; i++) {
       text: "Congratulations!!! You live in a kick-ass city.",
       type: "error",
       confirmButtonText: "Cool" });
-    break;
+    // break;
   } else
     // alert("Wow! Your city sucks, I am so sad for you!");
     swal({   title: "Sad!",   text: "Wow! Your city sucks, I am so sad for your!",   type: "error",   confirmButtonText: "Cool" });
